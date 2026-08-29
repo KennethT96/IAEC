@@ -13,8 +13,6 @@ Cette version ajoute :
 
 ## Compte de démonstration
 
-- Email : `ingenieur@aiec.local`
-- Mot de passe : `Aiec2026!`
 
 > Ce compte est uniquement destiné au prototype de mémoire. Il ne s'agit pas d'un système d'authentification de production.
 
