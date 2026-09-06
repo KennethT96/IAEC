@@ -233,6 +233,64 @@ def inject_css() -> None:
             min-height: 180px;
         }
 
+        .kpi-card {
+            background: white;
+            border-radius: 14px;
+            padding: 20px;
+            min-height: 135px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        }
+
+        .kpi-label {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .kpi-value {
+            font-size: 29px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .kpi-footer {
+            font-size: 12px;
+            color: #6b7280;
+        }
+
+        .kpi-blue {
+            border-top: 4px solid #3b82f6;
+        }
+
+        .kpi-blue .kpi-value {
+            color: #2563eb;
+        }
+
+        .kpi-purple {
+            border-top: 4px solid #8b5cf6;
+        }
+
+        .kpi-purple .kpi-value {
+            color: #7c3aed;
+        }
+
+        .kpi-orange {
+            border-top: 4px solid #f97316;
+        }
+
+        .kpi-orange .kpi-value {
+            color: #ea580c;
+        }
+
+        .kpi-green {
+            border-top: 4px solid #22c55e;
+        }
+
+        .kpi-green .kpi-value {
+            color: #16a34a;
+        }
+
         .format-chip {
             display: inline-block;
             margin: 5px 6px 0 0;
